@@ -1,5 +1,6 @@
 body {
     background-color: rgb(112, 100, 100);
+    text-align: center;
 }
 
 .image{
@@ -16,4 +17,12 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition-duration: 0.5s
+}
+
+.link-button:hover{
+    color: blue;
+    padding: 0.5%;
+    box-shadow: 4px 6px black;
+    transition-duration: 0.5s;
 }
