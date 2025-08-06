@@ -1,11 +1,18 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(112, 100, 100);
+    text-align: center;
 }
 
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #137c9c;
+    font-family: 'Arial', sans-serif;
 }
 
 .link-button {
@@ -16,10 +23,12 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition-duration: 0.5s
 }
 
-h1 {
-    text-align: center;
-    color: #137c9c;
-    font-family: 'Arial', sans-serif;
+.link-button:hover{
+    color: blue;
+    padding: 0.5%;
+    box-shadow: 4px 6px black;
+    transition-duration: 0.5s;
 }
