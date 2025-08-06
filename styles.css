@@ -9,6 +9,12 @@ body {
     height: 400px;
 }
 
+h1 {
+    text-align: center;
+    color: #137c9c;
+    font-family: 'Arial', sans-serif;
+}
+
 .link-button {
     text-decoration: none;
     color: black;
